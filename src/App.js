@@ -6,7 +6,7 @@ import {
   Link,
 } from "react-router-dom";
 import Home from "./components/HomePage/Home";
-import Features from "./components/features/Features";
+import ReduxExample from "./components/redux/Redux";
 import Examples from "./components/examples/Examples";
 import Others from "./components/others/Others";
 import AboutMe from "./components/aboutMe/AboutMe";
@@ -19,7 +19,7 @@ function App() {
         <Navbar />
         <Switch>
           <Route path="/home" element={<Home />} />
-          <Route path="/features" element={<Features />} />
+          <Route path="/reduxExample" element={<ReduxExample />} />
           <Route path="/examples" element={<Examples />} />
           <Route path="/others" element={<Others />} />
           <Route path="/aboutMe" element={<AboutMe />} />

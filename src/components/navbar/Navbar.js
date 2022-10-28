@@ -13,8 +13,8 @@ function Navbar(props) {
               <a class="nav-link active" aria-current="page" href="/home">
                 Home
               </a>
-              <a class="nav-link" href="/features">
-                Features
+              <a class="nav-link" href="/reduxExample">
+                Redux
               </a>
               <a class="nav-link" href="/examples">
                 Examples
